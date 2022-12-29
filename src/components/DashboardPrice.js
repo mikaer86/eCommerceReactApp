@@ -2,21 +2,30 @@ import { useState } from 'react'
 
 const DashboardPrice = () => {
   // control states for check and unchecked boxes for price range
-  const [check, setCheck] = useState()
-  const [range, setRange] = useState()
+  const [first, setFirst] = useState(true)
+  const [second, setSecond] = useState(true)
 
   return (
     <div>
       <h3>Price</h3>
       <section>
-        <input type="checkbox" name="lowRangePrices" />
-        <input type="checkbox" name="lowMidRangePrices" />
-        <input type="checkbox" name="midRangePrices" />
-        <input type="checkbox" name="highRangePrices" />
-      </section>
+        <input className="checkBox" type="checkbox" placeholder="All" />
+        <input
+          className="checkBox"
+          onChange={() => handleChange()}
+          type="checkbox"
+          placeholder="0$ - 99$"
+        />
+        <input className="checkBox" type="checkbox" placeholder="100$ - 999$" />
+        <input
+          className="checkBox"
+          type="checkbox"
+          placeholder="1000$ & Above"
+        />
 
-      <h4>Price Range</h4>
-      <input type="range" min="0" max="99" />
+        <h4>Price Range</h4>
+        <input type="range" min="0" max="99" />
+      </section>
     </div>
   )
 }
