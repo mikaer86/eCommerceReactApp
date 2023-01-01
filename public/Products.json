@@ -24,11 +24,9 @@
 
         "stocked": false,
 
-        "products": {
-          "name": {},
+        "type": {},
 
-          "amount": "0"
-        },
+        "amount": "0",
 
         "PriceRange": {
           "low": "0$-99$",
