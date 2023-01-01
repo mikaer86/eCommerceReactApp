@@ -1,0 +1,120 @@
+{
+  "Products": {
+    "Count": "3"
+      "categories": {
+        "electronics": {
+          "id": "1",
+          "stocked": true,
+          "products": {
+            
+            "name":{ 
+              
+            "Bose Headphones 700",
+            "Amazon Bip Home"
+          
+          },
+
+          "amount": "2"
+
+          },
+          "PriceRange": {
+            "low": "0$-99$",
+            "medium": "100$-999$",
+            "high": "1000$-1999$"
+          }
+        },
+
+        "sportEquipments": {
+          "id": "2",
+
+          "stocked": false,
+
+          "products": {
+            
+            "name":{ 
+              
+          
+          },
+
+          "amount": "0"
+          
+          },
+
+          "PriceRange": {
+            "low": "0$-99$",
+            "medium": "100$-999$",
+            "high": "1000$-1999$"
+          }
+        },
+
+        "furnuture": {
+          
+          "id": "3",
+
+          "stocked": true,
+
+          "products": {
+            
+            "name":{ 
+              
+            "Spine Friendly Chair"
+          
+          },
+
+          "amount": "1"
+          
+          },
+
+          "PriceRange": {
+            "low": "0$-99$",
+            "medium": "100$-999$",
+            "high": "1000$-1999$"
+          }
+        },
+
+        "food&grossery": {
+          "id": "4",
+
+          "stocked": false,
+
+          "products": {
+            
+            "name":{ 
+              
+          
+          },
+
+          "amount": "0"
+          
+          },
+          "PriceRange": {
+            "low": "0$-99$",
+            "medium": "100$-999$",
+            "high": "1000$-1999$"
+          }
+        },
+
+        "softwareSolutions": {
+          "id": "5",
+
+          "products": {
+            
+            "name":{ 
+              
+          
+          
+          },
+
+          "amount": "0"
+          
+          },
+          "PriceRange": {
+            "low": "0$-99$",
+            "medium": "100$-999$",
+            "high": "1000$-1999$"
+          }
+        }
+      }
+
+  }
+}

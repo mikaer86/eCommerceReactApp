@@ -1,0 +1,88 @@
+{
+  "Products": {
+    "Count": "3",
+
+    " categories": {
+      "electronics": {
+        "id": "1",
+
+        "stocked": true,
+
+        "type": "Bose Headphones 700",
+
+        "amount": "1",
+
+        "PriceRange": {
+          "low": "0$-99$",
+          "medium": "100$-999$",
+          "high": "1000$-1999$"
+        }
+      },
+
+      "sportEquipments": {
+        "id": "2",
+
+        "stocked": false,
+
+        "products": {
+          "name": {},
+
+          "amount": "0"
+        },
+
+        "PriceRange": {
+          "low": "0$-99$",
+          "medium": "100$-999$",
+          "high": "1000$-1999$"
+        }
+      },
+
+      "furnuture": {
+        "id": "3",
+
+        "stocked": true,
+
+        "type": "Spine Friendly Chair",
+
+        "amount": "1"
+      },
+
+      "PriceRange": {
+        "low": "0$-99$",
+        "medium": "100$-999$",
+        "high": "1000$-1999$"
+      }
+    },
+
+    "food&grossery": {
+      "id": "4",
+
+      "stocked": false,
+
+      "type": {},
+
+      "amount": "0",
+
+      "PriceRange": {
+        "low": "0$-99$",
+        "medium": "100$-999$",
+        "high": "1000$-1999$"
+      }
+    },
+
+    "softwareSolutions": {
+      "id": "5",
+
+      "stocked": false,
+
+      "type": {},
+
+      "amount": "0"
+    },
+    "PriceRange": {
+      "low": "0$-99$",
+      "medium": "100$-999$",
+      "high": "1000$-1999$"
+    }
+  }
+}
