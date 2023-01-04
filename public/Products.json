@@ -1,86 +1,35 @@
 {
-  "Products": {
-    "Count": "3",
-
-    " categories": {
-      "electronics": {
-        "id": "1",
-
-        "stocked": true,
-
-        "type": "Bose Headphones 700",
-
-        "amount": "1",
-
-        "PriceRange": {
-          "low": "0$-99$",
-          "medium": "100$-999$",
-          "high": "1000$-1999$"
-        }
-      },
-
-      "sportEquipments": {
-        "id": "2",
-
-        "stocked": false,
-
-        "type": {},
-
-        "amount": "0",
-
-        "PriceRange": {
-          "low": "0$-99$",
-          "medium": "100$-999$",
-          "high": "1000$-1999$"
-        }
-      },
-
-      "furnuture": {
-        "id": "3",
-
-        "stocked": true,
-
-        "type": "Spine Friendly Chair",
-
-        "amount": "1"
-      },
-
-      "PriceRange": {
-        "low": "0$-99$",
-        "medium": "100$-999$",
-        "high": "1000$-1999$"
-      }
+  "Products": [
+    {
+      "id": "1",
+      "name": "Bose Headphones 700",
+      "price": "340",
+      "img": "./Images/headPhones.png",
+      "category": "Electronics"
     },
 
-    "food&grossery": {
-      "id": "4",
-
-      "stocked": false,
-
-      "type": {},
-
-      "amount": "0",
-
-      "PriceRange": {
-        "low": "0$-99$",
-        "medium": "100$-999$",
-        "high": "1000$-1999$"
-      }
+    {
+      "id": "2",
+      "name": "Amazon Bip Home",
+      "price": "370",
+      "img": "./Images/amazon.png",
+      "category": "Electronics"
     },
 
-    "softwareSolutions": {
-      "id": "5",
-
-      "stocked": false,
-
-      "type": {},
-
-      "amount": "0"
-    },
-    "PriceRange": {
-      "low": "0$-99$",
-      "medium": "100$-999$",
-      "high": "1000$-1999$"
+    {
+      "id": "3",
+      "name": "Black & White Vase",
+      "price": "290",
+      "img": "./Images/cups.png",
+      "category": "Furniture"
     }
-  }
+
+    {
+      "id": "4",
+      "name": "Yellow Kettle",
+      "price": "390",
+      "img": "./Images/cups.png",
+      "category": "Furniture"
+    }
+  ]
 }
