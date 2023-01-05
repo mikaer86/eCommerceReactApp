@@ -1,0 +1,7 @@
+.Sidebar-Container {
+  width: 33.33%;
+  height: 100vh;
+  padding: 2.2rem;
+  background-color: rgba(225, 225, 225, 0.94);
+  box-shadow: 2em, 4em rgb(199, 199, 199);
+}

@@ -1,10 +1,11 @@
-//import { DashboardPrice } from '../DashboardPrice'
 import './App.css'
+import Sidebar from './components/Sidebar'
 
 function App() {
   return (
     <div className="App">
-      <h1>eCommerceMarket</h1>
+      <h1 className="title">eCommerce</h1>
+      <Sidebar />
     </div>
   )
 }

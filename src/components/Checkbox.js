@@ -1,10 +1,16 @@
-import '../assets/styles/checkbox.css'
-export const Checkbox = ({ label }) => {
+import { useState } from 'react'
+import '../styles/checkbox.css'
+
+const Checkbox = () => {
+  const [checked, setChecked] = useState([])
+
+  const handleCheck = (e) => {
+    setChecked(e.target.value)
+  }
   return (
     <div>
-      <label>
-        <input type="checkbox" />
-        <span>{label}</span>
+      <label className="labelCheckbox">
+        <input onChange={() => handleCheck(checked)} type="checkbox" />
       </label>
     </div>
   )
