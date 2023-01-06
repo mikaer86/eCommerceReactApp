@@ -1,0 +1,5 @@
+input[type='checkbox'] {
+  padding: 3rem;
+  border: 5px solid rgb(0, 0, 0);
+  cursor: pointer;
+}

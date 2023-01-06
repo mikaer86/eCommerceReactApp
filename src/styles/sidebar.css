@@ -1,7 +1,21 @@
+
+:root{
+
+  --bodyBackground: #F3F6F9;
+  --contentContainerColor: #FFFF;
+}
+
+body {
+
+  background-color: var(--bodyBackground);
+
+}
 .Sidebar-Container {
-  width: 33.33%;
+  width: 22.22%;
+  width: 220px;
   height: 100vh;
   padding: 2.2rem;
-  background-color: rgba(225, 225, 225, 0.94);
-  box-shadow: 2em, 4em rgb(199, 199, 199);
+  border-radius: 0.3rem;
+  background-color: var(--contentContainerColor);
+  
 }

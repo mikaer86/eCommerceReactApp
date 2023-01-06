@@ -1,8 +1,11 @@
-:root {
-  --background: rgba(255, 255, 255, 0.922);
-  --shadowElements: 3px, 4px solid rgba(174, 174, 174, 0.899);
+:root{
+
+  --bodyBackground: #F3F6F9;
+  --contentContainerColor: #FFFF;
 }
 
-.checkBox {
-  border: 1.2px solid black;
+body {
+
+  background-color: var(--bodyBackground);
+
 }
