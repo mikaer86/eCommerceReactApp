@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Checkbox from './Checkbox'
+import "../styles/fonts.css"
 
 const CategoryProducts = () => {
   const [checked, setCheck] = useState()

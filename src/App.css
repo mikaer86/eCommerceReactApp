@@ -1,7 +1,18 @@
+
+
+
+
+h4 {
+
+  font-size: 1.125rem;
+
+}
+
 :root{
 
   --bodyBackground: #F3F6F9;
   --contentContainerColor: #FFFF;
+  
 }
 
 body {

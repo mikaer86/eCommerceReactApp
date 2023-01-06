@@ -1,15 +1,4 @@
 
-:root{
-
-  --bodyBackground: #F3F6F9;
-  --contentContainerColor: #FFFF;
-}
-
-body {
-
-  background-color: var(--bodyBackground);
-
-}
 .Sidebar-Container {
   width: 22.22%;
   width: 220px;
@@ -19,3 +8,6 @@ body {
   background-color: var(--contentContainerColor);
   
 }
+
+
+

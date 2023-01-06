@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import CategoryProducts from "./CategoryProducts"
 import "../styles/sidebar.css"
+import "../styles/fonts.css"
 
 const Sidebar = () => {
   const [data, setData] = useState()
