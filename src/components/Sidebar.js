@@ -1,7 +1,9 @@
 import { useState, useEffect } from 'react'
 import CategoryProducts from "./CategoryProducts"
+import CategoryPrice from "./CategoryPrice"
+import CategorySize from "./CategorySize"
 import "../styles/sidebar.css"
-import "../styles/fonts.css"
+
 
 const Sidebar = () => {
   const [data, setData] = useState()
@@ -16,7 +18,10 @@ const Sidebar = () => {
 
   return (
     <div className="Sidebar-Container">
-      <CategoryProducts  />
+
+      <CategoryProducts/>
+      <CategoryPrice />
+      <CategorySize />
     </div>
   )
 }

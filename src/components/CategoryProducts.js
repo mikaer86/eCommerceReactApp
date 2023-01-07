@@ -29,6 +29,7 @@ const CategoryProducts = () => {
       <label for="Food & Grossery">
       <Checkbox onChange={() => handleCheck()}  />  
       Food & Grossery</label>
+
       
     </div>
   )

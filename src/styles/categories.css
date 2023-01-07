@@ -1,0 +1,28 @@
+
+.wrapper {
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    padding: 0.3rem;
+
+}
+
+.wrapperSize {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padinng: 0.3rem;
+
+}
+
+.sizeBtn {
+
+    padding: 0.6rem;
+    border-radius: 0.2rem;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(47, 88, 88);
+}

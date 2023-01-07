@@ -1,13 +1,18 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 .Sidebar-Container {
+  display: flex;
+ 
+  flex-direction: column;
   width: 22.22%;
   width: 220px;
   height: 100vh;
   padding: 2.2rem;
+
   border-radius: 0.3rem;
   background-color: var(--contentContainerColor);
   
 }
+
 
 
 
