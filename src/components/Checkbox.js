@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './public/checkbox.css'
+import '../styles/checkbox.css'
 
 const Checkbox = () => {
   const [checked, setChecked] = useState([])
