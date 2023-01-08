@@ -1,0 +1,8 @@
+.navBar {
+
+    display: flex;
+    min-width: 100%;
+    padding: 1.1rem;
+    background-color: #7743DB;
+
+}
