@@ -19,8 +19,18 @@
 
 .sizeBtnSection {
 
-    width: 100%;
+
     margin: 0.3rem;
+
+   
+
+}
+
+.sizeBtnSection  h4 {
+
+
+    display:  block;
+    padding-bottom: 1rem;
 
    
 

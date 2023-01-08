@@ -5,9 +5,10 @@ const CategorySize = () => {
     return(
     <div className="wrapperSize">
 
-       
+    
 
         <section className="sizeBtnSection">
+
         <h4>Size</h4>
             
             <span className="sizeBtn">S</span>

@@ -5,9 +5,12 @@ import Navigation from './components/Navigation'
 function App() {
   return (
     <div className="App">
-      <h1 className="title">eCommerce</h1>
       <Navigation/>
+      <div className='mainContentWrapper'>
+    
       <Sidebar/>
+
+      </div>
     </div>
   )
 }

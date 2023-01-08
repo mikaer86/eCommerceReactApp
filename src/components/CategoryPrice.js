@@ -29,6 +29,7 @@ const CategoryPrice = () => {
         <Checkbox onChange={() => handleCheck()}  />  
         2000$-2999$</label>
 
+        <h5>Price Range</h5>
         <input className="rangePrice" type="range"  />
   
         
