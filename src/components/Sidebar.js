@@ -3,7 +3,6 @@ import CategoryProducts from "./CategoryProducts"
 import CategoryPrice from "./CategoryPrice"
 import CategorySize from "./CategorySize"
 import CategoryColors from "./CategoryColors"
-import Navigation from "./Navigation"
 import "../styles/sidebar.css"
 
 
