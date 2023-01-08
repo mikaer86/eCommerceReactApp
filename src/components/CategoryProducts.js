@@ -14,19 +14,19 @@ const CategoryProducts = () => {
   return (
     <div className="wrapper">
       <h4>Categories</h4>
-      <label for="Electronics">
+      <label>
       <Checkbox onChange={() => handleCheck()} />
       Electronics</label>
-      <label for="Sport Equipments"> 
+      <label> 
       <Checkbox onChange={() => handleCheck()}  /> 
       Sport Equipments</label>
-      <label for="Furniture">
+      <label>
       <Checkbox onChange={() => handleCheck()}  />
      Furniture</label>
-     <label for="Software Solutions">
+     <label>
       <Checkbox onChange={() => handleCheck()}  />  
       Software Solutions</label>
-      <label for="Food & Grossery">
+      <label>
       <Checkbox onChange={() => handleCheck()}  />  
       Food & Grossery</label>
 

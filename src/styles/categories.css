@@ -12,10 +12,32 @@
 
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    padinng: 0.3rem;
+    padding: 0.3rem;
 
+}
+
+
+.sizeBtnSection {
+
+    width: 100%;
+    margin: 0.3rem;
+
+   
+
+}
+
+.sizeBtnSection span {
+
+  
+    margin: 0.6rem;
+
+   
+
+}
+
+.colorBtn {
+
+    margin: 0.6rem;
 }
 
 .sizeBtn {
@@ -24,5 +46,5 @@
     border-radius: 0.2rem;
     color: white;
     font-family: "Poppins", sans-serif;
-    background-color: rgb(47, 88, 88);
+    background-color: rgb(59, 117, 117);
 }
