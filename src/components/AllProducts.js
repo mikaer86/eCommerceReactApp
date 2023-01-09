@@ -4,8 +4,8 @@ import "../styles/allproducts.css";
 const AllProducts = ({ products }) => {
   return (
     <div className="allproducts">
-      {products.map((product) => (
-        <Product product={product} key={product.id} />
+      {products.map((p) => (
+        <Product product={p} key={p.id} />
       ))}
     </div>
   );

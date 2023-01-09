@@ -15,11 +15,8 @@ function App() {
   }
   return (
     <div className="App">
-      <h1>Hello world!!!</h1>
+      <h1>Welcome to E-Shop</h1>
       <AllProducts products={storeData.products} />
-      {/* {storeData.products.map((product) => (
-        <p>{product.productname}</p>
-      ))} */}
     </div>
   );
 }
