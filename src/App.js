@@ -2,6 +2,8 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import AllProducts from "./components/AllProducts";
+import Navigation from "./components/Navigation"
+import mainContent from "./components/mainContent"
 
 function App() {
   const [storeData, setStoreData] = useState();
@@ -15,7 +17,13 @@ function App() {
   }
   return (
     <div className="App">
-      <h1>Welcome to E-Shop</h1>
+      <Navigation/>
+      <div className="mainContentWrapper">
+
+        <Sidebar/>
+        <mainContent/>
+      </div>
+
       <AllProducts products={storeData.products} />
     </div>
   );
