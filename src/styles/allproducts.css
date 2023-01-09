@@ -1,0 +1,6 @@
+.allproducts {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  object-fit: scale-down;
+}
