@@ -1,8 +1,50 @@
-:root {
-  --background: rgba(255, 255, 255, 0.922);
-  --shadowElements: 3px, 4px solid rgba(174, 174, 174, 0.899);
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.checkBox {
-  border: 1.2px solid black;
+
+
+:root{
+
+  --bodyBackground: #F3F6F9;
+  --contentContainerColor: #FFFF;
+  
 }
+
+body {
+
+  background-color: var(--bodyBackground);
+
+}
+
+h4 {
+
+  font-family: "Poppins", sans-serif;
+  font-size: 1.125rem;
+
+}
+
+ label, p {
+
+  display: flex;
+  gap: 0.9rem;
+  padding-bottom: 0.4rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.825rem;
+
+
+ }
+
+ .mainContentWrapper {
+
+  display: flex;
+  flex-direction:  row;
+  justify-content: space-evenly;
+  padding: 0.8rem;
+  gap: 1rem;
+ }

@@ -1,0 +1,72 @@
+
+.wrapper {
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    padding: 0.3rem;
+
+}
+
+.wrapperSize {
+
+    display: flex;
+    flex-direction: row;
+    padding: 0.3rem;
+
+}
+
+
+.sizeBtnSection {
+
+
+    margin: 0.3rem;
+
+   
+
+}
+
+.sizeBtnSection  h4 {
+
+
+    display:  block;
+    padding-bottom: 1rem;
+
+   
+
+}
+
+.wrapper  h5 {
+
+
+    display:  block;
+    padding-bottom: 1rem;
+    font-family:"Poppins", sans-serif;
+
+   
+
+}
+
+.sizeBtnSection span {
+
+  
+    margin: 0.6rem;
+
+   
+
+}
+
+.colorsBtn {
+
+    margin: 0.8rem;
+
+}
+
+.sizeBtn {
+
+    padding: 0.6rem;
+    border-radius: 0.2rem;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(59, 117, 117);
+}

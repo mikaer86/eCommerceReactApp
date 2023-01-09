@@ -1,0 +1,13 @@
+.main {
+
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 76%;
+    padding: 0.6rem;
+    border-radius: 0.3rem;
+    background-color: #ffff;
+
+
+}
