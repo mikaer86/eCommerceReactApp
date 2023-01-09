@@ -21,9 +21,10 @@ const Sidebar = () => {
     <div className="Sidebar-Container">
       
       <CategoryProducts/>
-      <CategoryPrice />
-      <CategorySize />
-      <CategoryColors />
+      <CategoryPrice/>
+      <CategorySize/>
+      <CategoryColors/>
+
     </div>
   )
 }

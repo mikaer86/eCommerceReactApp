@@ -42,5 +42,9 @@ h4 {
 
  .mainContentWrapper {
 
+  display: flex;
+  flex-direction:  row;
+  justify-content: space-evenly;
   padding: 0.8rem;
+  gap: 1rem;
  }

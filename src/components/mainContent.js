@@ -1,9 +1,12 @@
-import "../styles/maincontent.css"
-const mainContent = () => {
+import "../styles/main.css"
+const   MainContent = () => {
 
     return (
-        <div className="main">
 
+        <div className="main">
+    
         </div>
     )
 }
+
+export default MainContent
