@@ -7,15 +7,7 @@ import "../styles/sidebar.css"
 
 
 const Sidebar = () => {
-  // const [data, setData] = useState()
-  // useEffect(() => {
-  //   fetch('./Products.json')
-  //     .then((response) => {
-  //       return response.json
-  //     })
-  //     .then((data) => setData(data))
-  //     .catch((error) => console.log(error))
-  // }, [data])
+
 
   return (
     <div className="Sidebar-Container">
