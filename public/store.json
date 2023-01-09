@@ -40,63 +40,70 @@
       "productname": "Smart Watch",
       "price": 370,
       "img": "./images/watch.png",
-      "category": "electronics"
+      "category": "electronics "
     },
     {
       "id": 7,
-      "productname": "Black & White Vases",
+      "productname": "Vases",
       "price": 370,
-      "img": "./images/headphone.png",
-      "category": "electronics"
+      "img": "./images/vases.png",
+      "category": "furniture"
     },
     {
       "id": 8,
-      "productname": "Black & White Vases",
+      "productname": "Kettle",
       "price": 370,
-      "img": "./images/headphone.png",
+      "img": "./images/kettle.png",
       "category": "furniture"
     },
     {
-      "id": 7,
-      "productname": "Black & White Vases",
+      "id": 9,
+      "productname": "Chair",
       "price": 370,
-      "img": "./images/headphone.png",
+      "img": "./images/chair.png",
       "category": "furniture"
     },
     {
-      "id": 7,
-      "productname": "Black & White Vases",
+      "id": 10,
+      "productname": "Yoga Mat",
       "price": 370,
-      "img": "./images/headphone.png",
-      "category": "furniture"
+      "img": "./images/yogamat.png",
+      "category": "sports"
     },
     {
-      "id": 7,
-      "productname": "Black & White Vases",
+      "id": 11,
+      "productname": "Bag",
       "price": 370,
-      "img": "./images/headphone.png",
-      "category": "furniture"
+      "img": "./images/bag.png",
+      "category": "sports"
     },
     {
-      "id": 7,
-      "productname": "Black & White Vases",
+      "id": 12,
+      "productname": "Sport Shoes",
       "price": 370,
-      "img": "./images/headphone.png",
-      "category": "furniture"
+      "img": "./images/shoes.png",
+      "category": "sport"
     },
     {
-      "id": 7,
-      "productname": "Black & White Vases",
+      "id": 13,
+      "productname": "Nike Shoes",
       "price": 370,
-      "img": "./images/headphone.png",
-      "category": "furniture"
+      "img": "./images/shoesnike.png",
+      "category": "sport"
     },
     {
-      "id": 7,
-      "productname": "Black & White Vases",
+      "id": 14,
+      "productname": "Ferrero",
       "price": 370,
-      "img": "./images/headphone.png",
-      "category": "furniture"
+      "img": "./images/ferrero.jpg",
+      "category": "food"
+    },
+    {
+      "id": 15,
+      "productname": "Macaroni",
+      "price": 370,
+      "img": "./images/macarona.jpeg",
+      "category": "food"
     }
   ]
 }
