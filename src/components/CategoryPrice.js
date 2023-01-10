@@ -14,7 +14,7 @@ const CategoryPrice = () => {
         <div className="wrapper">
         <h4>Price</h4>
         <label for="All">
-        <Checkbox onChange={() => handleCheck()} />
+        <Checkbox onChange={() => handleCheck()}/>
         All</label>
         <label for="0$-99$"> 
         <Checkbox onChange={() => handleCheck()}  /> 
