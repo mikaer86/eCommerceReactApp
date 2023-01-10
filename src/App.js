@@ -6,7 +6,7 @@ import Sidebar from "./components/Sidebar";
 import AllProducts from "./components/AllProducts";
 
 function App() {
-  const [storeData, setStoreData] = useState(null);
+  const [storeData, setStoreData] = useState();
 
   useEffect(() => {
     fetch("/store.json")
