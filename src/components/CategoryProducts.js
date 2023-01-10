@@ -5,17 +5,19 @@ import "../styles/categories.css"
 
 
 const CategoryProducts = () => {
-  const [checked, setCheck] = useState()
 
-  const handleCheck = (value) => {
-    setCheck(checked.value)
+  const [checked, setChecked] = useState([])
+  
+  const handleCheck = () => {
+
+
   }
 
   return (
     <div className="wrapper">
       <h4>Categories</h4>
       <label>
-      <Checkbox onChange={() => handleCheck()} />
+      { <Checkbox onChange={() => handleCheck()}  />}
       Electronics</label>
       <label> 
       <Checkbox onChange={() => handleCheck()}  /> 

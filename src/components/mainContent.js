@@ -1,13 +1,15 @@
+
 import "../styles/main.css"
-import ProductCard from "./productCard"
-const   MainContent = () => {
 
-    
+const MainContent = () => {
 
+ 
     return (
 
         <div className="main">
-            <ProductCard/>
+           
+           
+
         </div>
     )
 }

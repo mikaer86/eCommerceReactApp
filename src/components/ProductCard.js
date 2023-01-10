@@ -1,4 +1,7 @@
+import "../styles/productcard.css"
 const ProductCard = ({products}) => {
+   
+    
     return (
 
         <div className="productCard">

@@ -1,30 +1,34 @@
-//import { DashboardPrice } from '../DashboardPrice'
-import { useEffect, useState } from "react";
 import "./App.css";
-import AllProducts from "./components/AllProducts";
+import {useState, useEffect} from "react"
 import Navigation from "./components/Navigation"
-import mainContent from "./components/mainContent"
+import MainContent from "./components/MainContent"
+import Sidebar from "./components/Sidebar"
+import AllProducts from "./components/AllProducts";
 
 function App() {
+
   const [storeData, setStoreData] = useState();
-  useEffect(() => {
-    fetch("/store.json")
-      .then((response) => response.json())
-      .then((data) => setStoreData(data));
-  }, []);
-  if (!storeData) {
+
+   useEffect(() => {
+     fetch("/store.json")
+       .then((response) => response.json())
+     .then((data) => console.log(data) );
+     
+  },[]);
+
+if (!storeData) {
+
     return <h1>Loading...</h1>;
-  }
+  } 
+
   return (
     <div className="App">
       <Navigation/>
       <div className="mainContentWrapper">
-
         <Sidebar/>
-        <mainContent/>
+        <MainContent/>
+        <AllProducts products={storeData.products} />
       </div>
-
-      <AllProducts products={storeData.products} />
     </div>
   );
 }
