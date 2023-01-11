@@ -21,9 +21,9 @@ function App() {
   return (
     <div className="App">
       <Navigation />
+      <MainContent />
       <div className="mainContentWrapper">
         <Sidebar />
-        <MainContent />
         <AllProducts products={storeData.products} />
       </div>
     </div>

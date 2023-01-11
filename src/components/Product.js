@@ -2,7 +2,7 @@ import "../styles/product.css";
 const Product = ({ product }) => {
   return (
     <div className="product">
-      <img src={product.img} />
+      <img alt="asd" src={product.img} />
       <p> {product.productname}</p>
       <p>{product.price}</p>
     </div>
