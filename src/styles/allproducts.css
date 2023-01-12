@@ -1,6 +1,11 @@
 .allproducts {
+  padding: 1rem 0rem;
   display: flex;
-  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
+  gap: 1rem;
   object-fit: scale-down;
+  background-color: white;
+  border-radius: 0.8rem;
 }

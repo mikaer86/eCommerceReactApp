@@ -1,14 +1,10 @@
- import "../styles/navigation.css"
- const Navigation = () => {
+import "../styles/navigation.css";
+const Navigation = () => {
+  return (
+    <nav className="navBar">
+      <h1>Dashboard</h1>
+    </nav>
+  );
+};
 
-    return ( 
-        <div>
-        <nav className="navBar">
-            <span className="logo">eMarket</span>
-        </nav>
-        </div>
-
-    )
- }
-
- export default Navigation
+export default Navigation;
