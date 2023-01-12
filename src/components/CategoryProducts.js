@@ -1,38 +1,23 @@
-import { useState } from 'react'
 import Checkbox from './Checkbox'
 import "../styles/categories.css"
 
-
-
-const CategoryProducts = () => {
-
-  const [checked, setChecked] = useState([])
-  
-  const handleCheck = () => {
-
-
-  }
+const CategoryProducts = ({ onQuery }) => {
 
   return (
     <div className="wrapper">
       <h4>Categories</h4>
       <label>
-      { <Checkbox onChange={() => handleCheck()}  />}
-      Electronics</label>
-      <label> 
-      <Checkbox onChange={() => handleCheck()}  /> 
-      Sport Equipments</label>
+        {<Checkbox value="electronics" onQuery={onQuery} />}
+        Electronics</label>
       <label>
-      <Checkbox onChange={() => handleCheck()}  />
-     Furniture</label>
-     <label>
-      <Checkbox onChange={() => handleCheck()}  />  
-      Software Solutions</label>
+        <Checkbox value="sports" onQuery={onQuery} />
+        Sport Equipments</label>
       <label>
-      <Checkbox onChange={() => handleCheck()}  />  
-      Food & Grossery</label>
-
-      
+        <Checkbox value="furniture" onQuery={onQuery} />
+        Furniture</label>
+      <label>
+        <Checkbox value="food" onQuery={onQuery} />
+        Food & Grossery</label>
     </div>
   )
 }

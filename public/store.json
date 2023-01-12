@@ -82,14 +82,14 @@
       "productname": "Sport Shoes",
       "price": 370,
       "img": "./images/shoes.png",
-      "category": "sport"
+      "category": "sports"
     },
     {
       "id": 13,
       "productname": "Nike Shoes",
       "price": 370,
       "img": "./images/shoesnike.png",
-      "category": "sport"
+      "category": "sports"
     },
     {
       "id": 14,

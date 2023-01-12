@@ -6,16 +6,16 @@ import CategoryColors from "./CategoryColors"
 import "../styles/sidebar.css"
 
 
-const Sidebar = () => {
+const Sidebar = ({ products, onQuery }) => {
 
 
   return (
     <div className="Sidebar-Container">
-      
-      <CategoryProducts/>
-      <CategoryPrice/>
-      <CategorySize/>
-      <CategoryColors/>
+
+      <CategoryProducts products={products} onQuery={onQuery} />
+      <CategoryPrice />
+      <CategorySize />
+      <CategoryColors />
 
     </div>
   )
