@@ -9,17 +9,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
-  /*  display: flex;
-  width: 25%;
-  width: 250px;
-  height: 30vh;
-  padding: 4rem;
-  background-color: rgb(222, 216, 209); */
 }
 .product img {
-  height: 150px;
-  width: 150px;
+  height: 300px;
+  width: 300px;
   object-fit: contain;
 }
 @media screen and(max-width:992px) {
