@@ -37,6 +37,8 @@
 .sizeBtn {
   padding: 0.6rem;
   border-radius: 0.2rem;
+  margin: 0.3rem;
+  border: none;
   color: white;
   font-family: "Poppins", sans-serif;
   background-color: rgb(59, 117, 117);

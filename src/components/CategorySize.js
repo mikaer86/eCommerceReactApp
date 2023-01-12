@@ -1,26 +1,18 @@
-import "../styles/categories.css"
+import '../styles/categories.css'
 
 const CategorySize = () => {
-
-    return(
+  return (
     <div className="wrapperSize">
-
-    
-
-        <section className="sizeBtnSection">
-
+      <section className="sizeBtnSection">
         <h4>Size</h4>
-            
-            <span className="sizeBtn">S</span>
-            <span className="sizeBtn">M</span>
-            <span className="sizeBtn">L</span>
-            <span className="sizeBtn">XL</span>
-
-            </section>
-
-
+        <button className="sizeBtn">XS</button>
+        <button className="sizeBtn">S</button>
+        <button className="sizeBtn">M</button>
+        <button className="sizeBtn">L</button>
+        <button className="sizeBtn">XL</button>
+      </section>
     </div>
-    )
+  )
 }
 
 export default CategorySize
